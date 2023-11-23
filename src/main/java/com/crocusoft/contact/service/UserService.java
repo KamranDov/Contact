@@ -35,7 +35,7 @@ public class UserService {
         try {
             var simpleMailMessage = new SimpleMailMessage();
             simpleMailMessage.setFrom(mailSenderUsername);
-            simpleMailMessage.setTo(userDto.getEmail());//göndərəcəyin şəxsin mail-ini qeyd edirsən
+            simpleMailMessage.setTo(userDto.getEmail());
             simpleMailMessage.setSubject(userDto.getSubject());
             simpleMailMessage.setText(userDto.getMessage());
 
