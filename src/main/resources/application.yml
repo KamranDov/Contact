@@ -3,8 +3,8 @@ spring:
   mail:
     host: smtp.gmail.com
     port: 587
-    username: axmedovkamran19@gmail.com
-    password: eoxrhgtpbrgrqluk
+    username:
+    password:
 
     properties.mail.smtp:
       auth: true
@@ -13,9 +13,9 @@ spring:
   #Database configuration
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/contacts
-    username: root
-    password: 123456789root
+    url: jdbc:mysql://localhost:3306/
+    username:
+    password:
 
   #JPA configuration                                                            
   jpa:
