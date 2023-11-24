@@ -2,10 +2,13 @@ package com.crocusoft.contact.dto;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
+import lombok.AccessLevel;
 import lombok.Data;
+import lombok.experimental.FieldDefaults;
 
 @Data
-public class UserDto {
+@FieldDefaults(level = AccessLevel.PRIVATE)
+public class ContactDto {
 
     @NotBlank(message = "Name cannot be blank")
     String name;
